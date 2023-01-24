@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Corpo*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+/*Figura/imagem (triângulo-retângulo)*/
+.rounded {
+    margin: 10px 0px 20px;
+}
+
+/*Parágrafo texto (Teorema de Pitágoras)*/
+p {
+    text-align: justify;
+    font-size: 16px;
+    margin: 20px 0px 20px;
+}
+
+/*Inputs*/
+#catetoOposto,
+#catetoAdjacente,
+#hipotenusa {
+    background-color: rgb(206, 198, 206);
+    margin: 20px 0px 20px;
+    padding: 5px;
+    border: #0f010e;
+}
+
+/*Botão calcular*/
+.btn-btn-primary {
+    background-color: rgb(7, 6, 6);
+    border: 2px;
+    padding: 10px;
+    margin: 10px 0px 10px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#label_hipotenusa {
+    margin-top: 10%;
+}
+
+footer p {
+    margin: 50px 0px 0px;
+    background-color: black;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 5%;
+}
+
+
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TM | Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <!--banner principal da pagina-->
+        <div class="container-fluid">
+            <img src="./src/banner1.png" width="100%" id="banner1" alt="Banner principal da página">
+          </div>
+    </header>
+        
+    <div class="container-fluid">
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <!--Parágrafo texto Teorema de Pitágoras-->
+                <div class="text-justify"> 
+                    <p>O <b>Teorema de Pitágoras</b> é uma expressão matemática que relaciona os lados 
+                    de um triângulo retângulo, conhecidos como hipotenusa e catetos.<br><br>
+
+                    Para que um triângulo seja considerado retângulo, basta que um de seus ângulos tenha medida igual a <b>90°</b>,
+                     ou seja, que o triângulo tenha um ângulo reto. O lado oposto a esse ângulo é o maior lado do triângulo 
+                     retângulo e é chamado de <b>hipotenusa</b>. Os outros dois lados menores são chamados de <b>catetos</b>.<br><br>
+
+                     Observe a seguinte fórmula: <b>a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup></b>, 
+                     onde a = hipotenusa, b e c = catetos.
+                    <br>
+                    <p><b>Insira os valores:</b></p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <!--Imagem triângulo-retângulo-->
+                <img src="./src/figura1.png" class="rounded mx-auto d-block" width="50%" alt="triângulo retângulo">
+            </div>
+        </div>
+
+        <!--Formulário-->
+        <form action = "ttp://127.0.0.1:5000/Calcula" method = "get">
+            <fieldset>
+                <div class="row">
+                    <div class="form-group col-md-3">
+                        <label for="catetoOposto">CATETO OPOSTO (b):</label>
+                        <input type="number" class="form-control" id="catetoOposto">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="catetoAdjacente">CATETO ADJACENTE (c):</label>
+                        <input type="number" class="form-control" id="catetoAdjacente">
+                    </div>
+                </div>
+
+                <!--Botão calcular-->
+                <div class="row">
+                    <div class="form-group col-md-3">
+                        <button type="button" class="btn-btn-primary" onclick="Calcula()">Calcular</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <!--Resultado da hipotenusa-->
+        <div class="row">
+            <div class="form-group col-md-3">
+                <label for="hipotenusa" id="label_hipotenusa">HIPOTENUSA (a):</label>
+                <input type="number" class="form-control" id="hipotenusa">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p id="rodape">By 
+            <a href="https://github.com/Biiars00">Biiars00</a>
+        </p>
+    </footer>
+
+    <!--Javascript-->
+    <script>
+        function Calcula() {
+            var catetoOposto = document.getElementById("catetoOposto").value;
+            var catetoAdjacente = document.getElementById("catetoAdjacente").value;
+
+            var hipotenusa = Math.sqrt( Math.pow(catetoOposto, 2) + Math.pow(catetoAdjacente, 2));
+
+            var inputHipotenusa = document.getElementById("hipotenusa");
+            inputHipotenusa.value = hipotenusa;
+        }
+    </script>
+</body>
+</html>
