@@ -11,12 +11,7 @@ A aplicação é responsiva, ou seja, podemos utilizá-la em dispositivos de div
 
 ## 🚀 Ferramentas Utilizadas
 
-<img src="./src/file_type_vscode_icon_130084.png">
-<img src="./src/social_html5_html_71.png">
-<img src="./src/bootstrap_plain_logo_icon_146619.png">
-<img src="./src/javascript_icon_130900.png">
-<img src="./src/python_18894.png">
-<img src="./src/pocoo_flask_logo_icon_168045.png">
+<img src="./src/file_type_vscode_icon_130084.png"> <img src="./src/social_html5_html_71.png"> <img src="./src/bootstrap_plain_logo_icon_146619.png"> <img src="./src/javascript_icon_130900.png"> <img src="./src/python_18894.png"> <img src="./src/pocoo_flask_logo_icon_168045.png">
 
 
 ## 📋 Funcionalidades Desenvolvidas
@@ -32,7 +27,7 @@ Para acessar a página da aplicação, basta clicar no link abaixo:
 
 
 ```
-SUBSTITUIR SUBSTITUIR SUBSTITUIR SUBSTITUIR SUBSTITUIR SUBSTITUIR SUBSTITUIR SUBSTITUIR
+[(https://biiars00.github.io/calculadora1/projeto/)](https://biiars00.github.io/calculadora1/projeto/)
 ```
 
 ## ⚙️ Calculando
