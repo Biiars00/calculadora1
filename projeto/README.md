@@ -23,12 +23,8 @@ A aplicação é responsiva, ou seja, podemos utilizá-la em dispositivos de div
 
 ## 🔧 Acesso
 
-Para acessar a página da aplicação, basta clicar no link abaixo:
+Para acessar a página da aplicação, basta clicar no link: [https://biiars00.github.io/calculadora1/projeto/](https://biiars00.github.io/calculadora1/projeto/)
 
-
-```
-[https://biiars00.github.io/calculadora1/projeto/](https://biiars00.github.io/calculadora1/projeto/)
-```
 
 ## ⚙️ Calculando
 
