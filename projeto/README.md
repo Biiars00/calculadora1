@@ -27,7 +27,7 @@ Para acessar a página da aplicação, basta clicar no link abaixo:
 
 
 ```
-[(https://biiars00.github.io/calculadora1/projeto/)](https://biiars00.github.io/calculadora1/projeto/)
+[https://biiars00.github.io/calculadora1/projeto/](https://biiars00.github.io/calculadora1/projeto/)
 ```
 
 ## ⚙️ Calculando
